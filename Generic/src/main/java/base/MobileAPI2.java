@@ -78,15 +78,15 @@ public class MobileAPI2 {
             capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
             capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
             capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
-            capabilities.setCapability(MobileCapabilityType.APP, "/Users/zann/eclipse-workspace/MobileAutomation/Generic/src/main/resources/td.apk");
+            capabilities.setCapability(MobileCapabilityType.APP, "/Users/djafarouldslimane/Documents/MobileAutomationPractice/Generic/src/main/resources/Target_v6.44.0_apkpure.com.apk");
             appiumDriver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), capabilities);
 
         } else {
             cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
-            cap.setCapability(MobileCapabilityType.APP_PACKAGE, "com.tdbank");
+            cap.setCapability(MobileCapabilityType.APP_PACKAGE, "com.target");
             cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
             cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.IOS);
-            cap.setCapability(MobileCapabilityType.APP_PACKAGE, "com.tdbank");
+            cap.setCapability(MobileCapabilityType.APP_PACKAGE, "com.target");
             if (appiumDriver == null) {
                 appiumDriver = new IOSDriver(new URL("http://localhost:4723/wd/hub"), cap);
             }

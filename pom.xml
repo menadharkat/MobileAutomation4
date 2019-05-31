@@ -12,6 +12,7 @@
         <module>Generic</module>
         <module>TDbank</module>
         <module>UiCatalog</module>
+        <module>Target2</module>
     </modules>
 
     <dependencyManagement>
