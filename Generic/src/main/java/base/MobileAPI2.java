@@ -78,7 +78,7 @@ public class MobileAPI2 {
             capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
             capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
             capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
-            capabilities.setCapability(MobileCapabilityType.APP, "/Users/djafarouldslimane/Documents/MobileAutomationPractice/Generic/src/main/resources/Target_v6.44.0_apkpure.com.apk");
+            capabilities.setCapability(MobileCapabilityType.APP, "/Users/user/Documents/MobileAutomationProjects/Generic/src/main/resources/Target_v6.44.0_apkpure.com.apk");
             appiumDriver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), capabilities);
 
         } else {

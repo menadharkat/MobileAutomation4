@@ -17,9 +17,9 @@ public class TargetHomeTest extends MobileAPI2 {
     public void setGetstartedTest(){
        home.setGetstarted();
        home.setCreateaccount();
-       home.setUser("Jeff@selenium.com");
-       home.setFirstname("Djafar");
-       home.setLastname("Slimane");
+       home.setUser("abcd@selenium.com");
+       home.setFirstname("aklll");
+       home.setLastname("Slm");
        home.setUserphone("1234567890");
        home.setUserpassword("Jeff2020");
        home.setCreateaccountButton();
