@@ -13,6 +13,7 @@
         <module>TDbank</module>
         <module>UiCatalog</module>
         <module>Target2</module>
+        <module>Ebay</module>
     </modules>
 
     <dependencyManagement>

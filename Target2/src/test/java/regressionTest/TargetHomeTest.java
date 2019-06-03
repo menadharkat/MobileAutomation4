@@ -13,7 +13,7 @@ public class TargetHomeTest extends MobileAPI2 {
     public void init(){
         home = PageFactory.initElements(appiumDriver, TargetHome.class);
     }
-    @Test
+    @Test(enabled = false)
     public void setGetstartedTest(){
        home.setGetstarted();
        home.setCreateaccount();
@@ -23,6 +23,17 @@ public class TargetHomeTest extends MobileAPI2 {
        home.setUserphone("1234567890");
        home.setUserpassword("Jeff2020");
        home.setCreateaccountButton();
+    }
+
+    @Test
+    public void setGuestTest(){
+        home.setGetstarted();
+        home.setGuest();
+        home.setStores();
+        home.setAllow();
+        home.setZipcode("11223");
+
+
     }
 
 }
