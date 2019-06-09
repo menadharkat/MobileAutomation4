@@ -8,10 +8,8 @@ public class EbayAccount extends MobileAPI2 {
 
     @FindBy(xpath = "//android.widget.Button[@text='SIGN IN']")
     WebElement SignIn;
-
     @FindBy(xpath = "//android.widget.Button[@text='CREATE AN ACCOUNT']")
     WebElement creataccount;
-
     @FindBy(xpath = "//android.widget.Button[@text='USE YOUR EMAIL']")
         WebElement UseEmail;
 

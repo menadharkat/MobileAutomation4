@@ -10,7 +10,11 @@
         <classes>
             <!--  <class name="regressionEbayTest.EbayHomePageTest"/>-->
 <!--            <class name="regressionEbayTest.EbayAccountTest"/>-->
-            <class name="regressionEbayTest.EbayCategoriesTest"/>
+<!--            <class name="regressionEbayTest.EbayCategoriesTest"/>-->
+
+               <class name="regressionEbayTest.MobileAPITest"/>
+
+
 
         </classes>
     </test>

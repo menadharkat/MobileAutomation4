@@ -267,7 +267,12 @@ public class MobileAPI2 {
     }
 
     public void scrollAndClickByName(String locator) {
+
         appiumDriver.scrollTo(locator).click();
     }
-}
 
+    public void scrollByName(String str) {
+
+    appiumDriver.scrollTo(str);
+    }
+}

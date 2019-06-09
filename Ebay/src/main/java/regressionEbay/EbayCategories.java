@@ -16,6 +16,7 @@ public class EbayCategories extends MobileAPI2 {
     WebElement filter;
 
     public void setCategories(){
+
         categories.click();
     }
     public void setArt(){
@@ -25,6 +26,6 @@ public class EbayCategories extends MobileAPI2 {
         artprints.click();
     }
     public void setFilter(){
-        filter.click();
-    }
+    filter.click();
+}
 }

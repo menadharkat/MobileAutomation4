@@ -14,22 +14,22 @@ public class EbayCategoriesTest extends MobileAPI2 {
     public void init(){
         ebaycategories = PageFactory.initElements(appiumDriver, EbayCategories.class);
     }
-    @Test
+    @Test(priority = 1)
     public void setCategoriesTest(){
         ebaycategories.setCategories();
     }
-    @Test
+    @Test(priority = 2)
     public void setArtTest(){
         ebaycategories.setCategories();
         ebaycategories.setArt();
     }
-    @Test
+    @Test(priority = 3)
     public void setArtpostersTest(){
         ebaycategories.setCategories();
         ebaycategories.setArt();
         ebaycategories.setArtprints();
     }
-    @Test
+    @Test(priority = 4)
     public void setFilterTest(){
         ebaycategories.setCategories();
         ebaycategories.setArt();
