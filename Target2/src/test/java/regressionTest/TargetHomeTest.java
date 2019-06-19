@@ -17,11 +17,11 @@ public class TargetHomeTest extends MobileAPI2 {
     public void setGetstartedTest(){
        home.setGetstarted();
        home.setCreateaccount();
-       home.setUser("abcd@selenium.com");
-       home.setFirstname("aklll");
-       home.setLastname("Slm");
-       home.setUserphone("1234567890");
-       home.setUserpassword("Jeff2020");
+       home.setUser("menadharkat@gmail.com");
+       home.setFirstname("menad");
+       home.setLastname("harkat");
+       home.setUserphone("piit123");
+       home.setUserpassword("pnt123");
        home.setCreateaccountButton();
     }
 
@@ -31,7 +31,7 @@ public class TargetHomeTest extends MobileAPI2 {
         home.setGuest();
         home.setStores();
         home.setAllow();
-        home.setZipcode("11223");
+        home.setZipcode("112213");
 
 
     }

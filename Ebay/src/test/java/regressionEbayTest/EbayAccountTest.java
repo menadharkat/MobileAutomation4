@@ -30,9 +30,9 @@ public class EbayAccountTest extends MobileAPI2 {
     @Test
     public void setRegistertest(){
         ebayRegister.setRegister();
-        ebayRegister.setName("pepsi");
-        ebayRegister.setEmail("pepsi@yahoo.com");
-        ebayRegister.setPassword("abc123");
+        ebayRegister.setName("menad");
+        ebayRegister.setEmail("mend@yahoo.com");
+        ebayRegister.setPassword("menad123");
         ebayRegister.setSlectphonenu();
         ebayRegister.setSubmit();
     }
